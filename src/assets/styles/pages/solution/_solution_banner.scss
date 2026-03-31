@@ -1,7 +1,6 @@
 @use "./../../init" as *;
 
 .l-solution__banner {
-    width: 100%;
     
     @include mobile {
         padding: 0 !important;
@@ -23,7 +22,6 @@
     border-radius: 0.8rem;
     overflow: hidden;
     width: 100%;
-    max-width: 132rem; 
     margin: 0 auto 4.8rem;
     box-sizing: border-box;
 
